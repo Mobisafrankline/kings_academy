@@ -466,7 +466,7 @@ body.is-loading #banner:after {
 
 /* Button */
 
-	input[type="submit"],
+	 input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
 	.button {
@@ -626,7 +626,7 @@ body.is-loading #banner:after {
 
 		.feature h3 {
 			margin: 0 0 0.7em 0;
-		}
+		} 
 		
 
 /* Slider */
