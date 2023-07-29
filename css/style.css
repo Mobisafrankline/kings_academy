@@ -2,14 +2,17 @@
 @import url("http://fonts.googleapis.com/css?family=Lato:300,700");
 
 
-
-/* Basic */
+/* ############################################################## */
+/* Basic css for the body of website                             */
+/* ############################################################ */
 
 	body {
 		background: #1f3272;
 	}
-
-		/* body.is-loading * {
+	
+/* These lines are targeting different browser-specific prefixes for the animation property, 
+which are used to disable animations in different web browsers. */
+		body.is-loading * {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
 			-o-animation: none !important;
@@ -20,7 +23,7 @@
 			-o-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-		} */
+		} 
 
 	body, input, select, textarea {
 		color: #646464;
@@ -59,7 +62,7 @@
 	p {
 		margin: 0 0 2em 0;
 	}
-
+/* thi is for h's for styling color, letter space and font weight */
 	h1, h2, h3, h4, h5, h6 {
 		color: #545454;
 		font-weight: 700;
@@ -75,27 +78,27 @@
 
 	h2 {
 		font-size: 1.75em;
-		line-height: 1.5em;
+		/* line-height: 1.5em; */
 	}
 
 	h3 {
 		font-size: 1.25em;
-		line-height: 1.5em;
+		/* line-height: 1.5em; */
 	}
 
 	h4 {
 		font-size: 1.1em;
-		line-height: 1.5em;
+		/* line-height: 1.5em; */
 	}
 
 	h5 {
 		font-size: 0.9em;
-		line-height: 1.5em;
+		/* line-height: 1.5em; */
 	}
 
 	h6 {
 		font-size: 0.7em;
-		line-height: 1.5em;
+		/* line-height: 1.5em; */
 	}
 
 	sub {
@@ -1456,3 +1459,18 @@ ul.style1
 		.icon > .label {
 			display: none;
 		}
+
+#portfolio
+{
+	background-color: white;
+	padding: 30px;
+
+}
+#portfolio h1{
+	text-align: center;
+	font-size: xx-large;
+
+}
+#featured .image{
+ border-radius: 50%;
+}
