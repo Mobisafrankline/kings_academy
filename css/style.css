@@ -645,7 +645,7 @@ body.is-loading #banner:after {
 			height: 20em;
 			margin: 0 auto;
 			overflow: hidden;
-			width: 80%;
+			width: 100%;
 		}
 
 		.slider .slide img {
@@ -704,6 +704,13 @@ body.is-loading #banner:after {
 				content: '\f104';
 				left: -0.05em;
 			}
+			
+
+  
+  
+  
+  
+  
 
 /* Wrapper */
 
