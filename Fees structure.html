@@ -21,7 +21,72 @@
 			<link rel="stylesheet" href="css/style-xlarge.css" />
 		</noscript>
 		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
-		
+		<style>
+			body {
+				font-family: Arial, sans-serif;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				min-height: 100vh;
+				background-color: #f4f4f4;
+				margin: 0;
+			}
+	
+			.container {
+				display: grid;
+				grid-template-columns: repeat(4, 1fr);
+				grid-gap: 20px;
+				max-width: 1200px;
+				padding: 20px;
+			}
+	
+			.item {
+				background-color: white;
+				border: 1px solid #ddd;
+				border-radius: 8px;
+				padding: 0;
+				text-align: center;
+				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+				overflow: hidden;
+			}
+	
+			.image-container {
+				position: relative;
+			}
+	
+			.image-container img {
+				max-width: 100%;
+				height: auto;
+				display: block;
+			}
+	
+			.info-text {
+				position: absolute;
+				bottom: 8px;
+				left: 8px;
+				margin: 0;
+				background-color: rgba(0, 0, 0, 0.5);
+				color: white;
+				padding: 4px 8px;
+				border-radius: 4px;
+				font-size: 12px;
+			}
+	
+			.btn {
+				display: inline-block;
+				padding: 10px 20px;
+				background-color: #007bff;
+				color: white;
+				text-decoration: none;
+				border-radius: 4px;
+				transition: background-color 0.3s;
+				margin: 10px 0;
+			}
+	
+			.btn:hover {
+				background-color: #0056b3;
+			}
+		</style>
 	</head>
 	<body class="landing">
 
@@ -51,15 +116,40 @@
     <section id="main" class="wrapper style1">
       <header class="major">
         <h2>Fees structure</h2>
-        <p></p>
+        <p style="color: rgb(38, 202, 214);">"Discover transparency and simplicity with our Fee Structure, designed to empower students like you to plan confidently for your academic journey.
+			 We believe in providing clear, comprehensive information so you can focus on what truly matters – your education and success."</p>
       </header>
-      <div class="container">
-        <section id="content">
-          <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-        </section>
-								
+	  <div class="container">
+        <div class="item">
+            <div class="image-container">
+                <img src="images/pic06.jpg" alt="Image 1">
+                <p class="info-text">Information about the first document</p>
+            </div>
+            <a href="file1.pdf" download class="btn">Download PDF</a>
+        </div>
+        <div class="item">
+            <div class="image-container">
+                <img src="images/pic06.jpg" alt="Image 2">
+                <p class="info-text">Information about the second document</p>
+            </div>
+            <a href="file2.pdf" download class="btn">Download PDF</a>
+        </div>
+        <div class="item">
+            <div class="image-container">
+                <img src="images/pic06.jpg" alt="Image 3">
+                <p class="info-text">Information about the third document</p>
+            </div>
+            <a href="file3.pdf" download class="btn">Download PDF</a>
+        </div>
+        <div class="item">
+            <div class="image-container">
+                <img src="images/pic06.jpg" alt="Image 4">
+                <p class="info-text">Information about the fourth document</p>
+            </div>
+            <a href="file4.pdf" download class="btn">Download PDF</a>
+        </div>
       
-      </div>
+    </div>
     </section>
     
 
